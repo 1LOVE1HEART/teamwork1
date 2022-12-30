@@ -2,7 +2,7 @@
   "name": "timetravel-react",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://1love1heart.github.io/teamwork1", 
+  "homepage":"https://1love1heart.github.io/teamwork1/src/index.js", 
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -51,12 +51,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "eject": "react-scripts eject"    
   },
   "eslintConfig": {
     "extends": [
