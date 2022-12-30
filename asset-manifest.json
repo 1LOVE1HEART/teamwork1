@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/teamwork1/static/css/main.964be2b9.css",
-    "main.js": "/teamwork1/static/js/main.4a0b050c.js",
+    "main.js": "/teamwork1/static/js/main.a13b5c3a.js",
     "static/js/787.a5b8d273.chunk.js": "/teamwork1/static/js/787.a5b8d273.chunk.js",
     "static/media/stay_home.jpg": "/teamwork1/static/media/stay_home.46afe271437ab22480a4.jpg",
     "static/media/BG_member.jpg": "/teamwork1/static/media/BG_member.c9e4a9fa77679e1bd8e1.jpg",
@@ -63,11 +63,11 @@
     "static/media/fb.svg": "/teamwork1/static/media/fb.debac1e24b095a74a5d50eead7a458f4.svg",
     "static/media/sort.svg": "/teamwork1/static/media/sort.ab40f22982f3cd552ff7f2851efafe48.svg",
     "main.964be2b9.css.map": "/teamwork1/static/css/main.964be2b9.css.map",
-    "main.4a0b050c.js.map": "/teamwork1/static/js/main.4a0b050c.js.map",
+    "main.a13b5c3a.js.map": "/teamwork1/static/js/main.a13b5c3a.js.map",
     "787.a5b8d273.chunk.js.map": "/teamwork1/static/js/787.a5b8d273.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964be2b9.css",
-    "static/js/main.4a0b050c.js"
+    "static/js/main.a13b5c3a.js"
   ]
 }
