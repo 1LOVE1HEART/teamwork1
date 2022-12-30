@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import React from 'react';
 
 import ScrollToTop from './Component/ScrollToTop';
@@ -52,7 +52,7 @@ function App() {
     <HotelCartProvider localStorageKey="hotelcart">
       <FoodCartProvider localStorageKey="foodcart">
         <TicketCartProvider localStorageKey="ticketcart">
-          <BrowserRouter>
+          <HashRouter>
             {/* 路由表 */}
             <AllContextProvider>
               <ItineraryContextProvider>
@@ -137,7 +137,7 @@ function App() {
                   </CommentContextProvider>
               </ItineraryContextProvider>
             </AllContextProvider>
-          </BrowserRouter>
+          </HashRouter>
         </TicketCartProvider>
       </FoodCartProvider>
     </HotelCartProvider>
