@@ -1,0 +1,30 @@
+/* IconBar */
+.IconBar {
+  font-size: 22px;
+  margin: 20px 0px;
+  align-items: center;
+  .tkDetail_Icon {
+    // align-items: center;
+    width: 40px;
+    height: 40px;
+    // margin: 0px;
+    // margin-right: 5px;
+    .st0 {
+      fill: #63d2ff;
+    } 
+  }
+  .tkDetail_Icon_p{
+    padding-top: 15px;
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+  // h5 {
+  //   margin-bottom: 0px;
+  //   margin-right: 30px;
+  //   color: #8a8a8a;
+  // }
+  .MdKingBed {
+    margin-left: 30px;
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,115 @@
+// div {
+//   border: 1px solid red;
+// }
+.bannerSwiper {
+  width: 100%;
+  height: 141px;
+  overflow: hidden;
+  
+
+// .SwiperSlide{
+//   width: 100%;
+//   height: 141px;
+//   border: 1px solid red;
+// }
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    &:after {
+      color:#e9e9e9;
+      content: 'prev';
+    }
+    left: -2px;
+    right: auto;
+    top:50%;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    &:after {
+      color:#e9e9e9;
+      content: 'next';
+    }
+    right: -2px;
+    left: auto;
+    top:50%;
+  }
+  .SwiperSlideBannerNewest {
+    // height:500px !important;
+      // margin-bottom: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      width: 100%;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;   
+      //  background-position 依照你的照片內容調整
+      .bannerNewest1{
+        object-fit: cover;  
+        width: 100%;
+        height: 100%;
+        background-image: url('.../../../../../img/banner/banner01.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+       }
+      .bannerNewest2{
+        object-fit: cover;  
+        width: 100%;
+        height: 100%;
+        background-image: url('.../../../../../img/banner/banner02.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+       }
+      .bannerNewest3{
+        object-fit: cover;  
+        width: 100%;
+        height: 100%;
+        background-image: url('.../../../../../img/banner/banner03.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+       }
+      .bannerNewest4{
+        object-fit: cover;  
+        width: 100%;
+        height: 100%;
+        background-image: url('.../../../../../img/banner/banner04.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+       }
+      .bannerNewest5{
+        object-fit:cover;  
+        width: 100%;
+        height: 100%;
+        background-image: url('.../../../../../img/banner/banner05.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:  bottom 20% center;
+       }
+       .bannerNewest6{
+        object-fit:cover;  
+        width: 100%;
+        height: 100%;
+        background-image: url('.../../../../../img/banner/banner06.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:  bottom 20% center;
+       }
+       
+    } 
+   
+  
+} 
+

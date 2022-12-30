@@ -1,0 +1,51 @@
+
+.CardList{
+    padding: 10px;
+}
+.Card{
+     margin: 0;
+     padding:0;
+     height: 400px;
+     box-shadow: 0 0 18px 0 rgba(0,0,0,0.1);
+  }
+
+.ititlerow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    h1,h2,p{
+        margin: 0;
+    }
+}
+.titlespace-x{
+    padding-right: 20px;
+    padding-bottom: 0 !important;
+}
+.card-img{
+    height: 200px;
+}
+.card-margin0{
+    h2, p{
+        margin-bottom: 0;
+    }
+}
+.btnstyle{
+    width: 100px;
+    height: 36px;
+    padding: 0;
+}
+.rowmb{
+    margin-bottom: 100px;
+}
+
+.iicon{
+    height: 40px;
+    width: 40px;
+    img{
+        width: 40px;
+        height: 30px;
+        display: block;
+        margin: 5px 0
+    }
+}

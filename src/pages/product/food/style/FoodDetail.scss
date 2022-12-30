@@ -1,0 +1,221 @@
+.container{
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    // .breadcrumb{
+        
+    //     padding:60px 0 20px 0
+    // }
+    .carousel{
+        height:650px    ;
+    }
+    .product_name{
+        margin-top: 25px;
+        justify-content:space-between;
+        .product_name_title h1{
+            color:#4D4D4D;
+        }
+        .Heart_Calendar_icon{
+            .HeartBtn,.CalendarBtn{
+                width: 40px;
+                height: 40px;
+                border: none;
+                  background-color:rgba(255, 255, 255, 0.004);
+            }
+        }
+            .Heart_icon,.Calendar_icon{
+                width: 100%;
+                height: 100%;
+                background-color: none; 
+                z-index: 100;
+            }
+        }    
+    }
+    .star_group{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        p{
+            margin:0 0 0 10px;
+            color:#8A8A8A;
+            font-size: 18px;
+        }
+    }
+    .location{
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin-top: 25px;
+        .map_cate{
+            display: flex;
+            .cate{
+                margin-left: 25px;
+            }
+        }
+        .tickets_group{
+            margin-left: 100px;
+        }
+        p{
+            font-size: 18px;
+            padding-top: 10px;
+            margin:0 0 0 10px
+        }
+    }
+    .product_text{
+        
+        font-family: 'Noto Sans TC', sans-serif;
+        color:#4D4D4D;
+        margin-top: 50px;
+        p{
+            max-width:900px;
+            line-height: 1.8rem;
+            font-size: 18px;
+            margin:0;
+        }
+    }
+    .choose{
+        margin-left: auto;
+        .quantity_title{
+            position: relative;
+            bottom:32px;
+            margin-bottom: 0;
+            font-size: 18px;
+            
+        }
+        .quantity{
+            p{
+                text-align: center;
+             
+                font-size: 18px;
+                 margin: 0 20px;
+                color:#4D4D4D;
+                padding: 6px;
+            }
+            .countBtn{
+                width: 40px;
+                height: 40px;
+                padding: 0;
+                border: none;
+                background-color:rgba(255, 255, 255, 0.004);
+            }
+            .Minus_icon,.Add_icon{
+                width: 40px;
+                height: 40px;
+            }
+        }
+        .price{
+            margin-top: 20px;
+            .price1{
+                text-decoration: line-through;
+                color:#D9D9D9;
+            }
+            .price2{
+                color:#59D8A1;
+            }
+        }
+    }
+    .btnGroup{
+        margin-top: 20px;
+        .add_cart{
+            background-color:#63D2FF;
+            color:#FFFFFF!important;
+            margin-right: 30px;
+        }
+        .buy_now{
+            color:#FFFFFF !important;
+            background-color: #59D8A1;
+        }
+    }
+    .product_information{
+        height: 100%;
+    }
+    .product_information_img {
+        z-index:999;
+       
+        .product_information_img_div1,.product_information_img_div2,.product_information_img_div3{
+            width: 100%;
+            height:600px;
+        }
+       .product_information_img1{
+        object-fit: cover;  
+        width: 100%;
+        height: 100%;
+        background-image: url('http://localhost:3001/uploads/F116-6.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+       }
+       .product_information_img2{
+        object-fit: cover;  
+        width: 100%;
+        height: 100%;
+        background-image: url('http://localhost:3001/uploads/F116-7.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+       }
+       .product_information_img3{
+        object-fit: cover;  
+        width: 100%;
+        height: 100%;
+        background-image: url('http://localhost:3001/uploads/F116-8.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+       }
+        p{
+            margin: 20px 0;
+        }
+}
+.foodHashChange{
+    margin-left: auto;
+}
+    .Heart_icon, .Calender_icon, .Phone_icon,.Map_icon,.Food_icon{
+        width: 40px;
+        height: 40px;
+    }
+    .star_group img{
+        width: 30px;
+        height: 30px;
+    }
+    .how_to_use{
+       margin: auto;
+    }
+
+    .use_title_img,.store_title_img{
+        margin: 0 0 30px 0 ; 
+    }
+    .use_title_img > h2 ,.store_title_img > h2{
+        margin:0 0 0 20px
+    }
+    .map_btn{
+        &:hover{
+            background-color: #FFFFFF;
+        }
+        color:#59D8A1;
+        span{
+            color:#59D8A1
+        }
+    }
+ 
+    .store{
+        p{
+            margin:20px 0;
+        }
+    }
+    .foodmap{
+        margin: 50px 0 0 0 ;
+        .leaflet-container {
+            z-index: 0;
+            width: 450px;
+            height: 450px;
+        }
+    }
+    // .commitGroup{
+    //     margin-top:100px    }
+
+ 
+.Food_partHidden{
+    height: 80px;
+    // background-color: red;
+}

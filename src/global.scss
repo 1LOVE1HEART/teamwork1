@@ -1,0 +1,140 @@
+//更改變數
+//color
+$primary: #59d8a1;
+$secondary: #63d2ff;
+$success: #59d8a1;
+$danger: #ea8a8a;
+$black: #4d4d4d;
+//navbar active color
+$navbar-light-active-color: #59d8a1;
+//border
+$border-color: #d9d9d9;
+$border-radius: 0;
+//input
+$input-color: #4d4d4d;
+$input-padding-y: 0.8rem;
+$input-padding-x: 0.8rem;
+$input-border-color: #d9d9d9;
+//dropdown
+$dropdown-link-hover-bg: #fff;
+$dropdown-link-active-bg: #fff;
+//pagination
+$pagination-focus-box-shadow: #fff;
+//container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
+// 導入bootstrap所有的樣式與預設變數
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap.scss';
+
+// 其它要導入覆蓋掉原本的預設bootstrap樣式要放在這下面
+// 全站都會使用的共同樣式
+html {
+  font-size: 14px;
+}
+body {
+  color: #4d4d4d !important;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans TC', sans-serif !important;
+  letter-spacing: 1px;
+  //文字設定
+  h1 {
+    font-weight: 500 !important;
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+    color: #4d4d4d;
+  }
+  h2 {
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+    line-height: 2.5rem !important;
+    color: #4d4d4d;
+  }
+  p {
+    font-weight: 300 !important;
+    font-size: 1.1rem !important;
+    line-height: 1.8rem !important;
+    color: #4d4d4d;
+  }
+  a {
+    font-weight: 400 !important;
+    font-size: 1.1rem !important;
+    line-height: 1.8rem !important;
+    color: #4d4d4d;
+  }
+}
+//btn
+.btn {
+  padding: 0.7rem 1.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #4d4d4d;
+}
+.btn-primary {
+  color: #fff !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:hover {
+  color: #59d8a1 !important;
+  background-color: #fff !important;
+  border-color: #59d8a1 !important;
+}
+.btn:disabled {
+  color: #fff !important;
+  background-color: #4d4d4d !important;
+  border-color: #4d4d4d !important;
+}
+.btn-secondary {
+  color: #fff;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active:hover {
+  color: #63d2ff;
+  background-color: #fff;
+  border-color: #63d2ff;
+}
+.btn-secondary {
+  color: #fff;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active:hover {
+  color: #63d2ff;
+  background-color: #fff;
+  border-color: #63d2ff;
+}
+//icon外框 40x40
+.icon {
+  height: 40px;
+  width: 40px;
+  img {
+    display: block;
+    margin: 5px auto;
+  }
+}
+//input樣式設定
+.form-control::placeholder {
+  color: #d9d9d9;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+//區域給padding
+.givePadding {
+  padding: 100px 0;
+}
+// .MuiPagination-root{
+//   margin-bottom:80px;
+// }
+.MuiPagination-ul {
+  display: flex;
+  justify-content: center;
+}

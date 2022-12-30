@@ -1,0 +1,51 @@
+// div{
+//     outline: 1px solid blue;
+// }
+// .row{
+//     margin: 0;
+// }
+.breadCrumb_Sort{
+    display: flex;
+    
+}
+.space{
+    padding:60px
+}
+ .foodMap{
+    width: 100%;
+  height: 450px;
+
+ }
+.leaflet-container{
+    width: 450px;
+    height: 450px;
+}
+#foodmap{
+    width: 450px;
+    height: 450px;
+
+}
+.foodSort{
+    padding-top: 20px;
+    justify-content: flex-end;
+}
+.foodPagination{
+    margin-top: 80px;
+}
+.CardListStyle{
+    // padding-top:50px;
+    margin-left: 20px !important;
+    
+}
+@media (max-width:768px) {
+.foodContent{
+    display: block;
+    flex-direction: column;
+}
+    .CardListStyle{
+        width: 100%;
+        display: block;
+        flex-wrap: nowrap;
+        
+    }
+}
