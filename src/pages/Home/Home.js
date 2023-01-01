@@ -99,20 +99,20 @@ function Home() {
   // }
   return (
     <>
-      <div>
+      {/* <div>
         <BannerEffect />
-      </div>
+      </div> */}
       <div className="container">
         <div className="row">
-          {/* <div className="home-part1">
+          <div className="home-part1">
             <div className={bgClassName}>
               <div className="home_bg_text_wrap">
                 <div className="home_bg_text_time">Time</div>
                 <div className="home_bg_text_travel">Travel</div>
               </div>
-            </div> */}
+            </div>
           {/* 標籤icons部分 */}
-          {/* <div className="home_tags">
+          <div className="home_tags">
               <div onClick={ItineraryChange} className="tag_unit">
                 <TagSiteButton />
               </div>
@@ -125,10 +125,10 @@ function Home() {
               <div onClick={TicketChange} className="tag_unit">
                 <TagTicketButton />
               </div>
-            </div> */}
+            </div>
 
           {/* 住宿填選區 */}
-          {/* <div className={searchStayClassname}>
+          <div className={searchStayClassname}>
               <div className="tag_input_unit1">
                 <div className="home_tag_input_tittle1">目的地</div>
                 <div className="home_Hoteltag_input">
@@ -165,10 +165,10 @@ function Home() {
                   <TagStaySearchBtn />
                 </div>
               </div>
-            </div> */}
+            </div>
 
           {/* 美食填選區 */}
-          {/* <div className={searchOtherClassname}>
+          <div className={searchOtherClassname}>
               <div className="tag_input_unit1">
                 <div className="home_tag_input_tittle1"></div>
                 <div className="home_tag2_input1">
@@ -182,10 +182,10 @@ function Home() {
                   <TagFoodSearchBtn />
                 </div>
               </div>
-            </div> */}
+            </div>
 
           {/* 景點填選區 */}
-          {/* <div className={searchOtherClassname}>
+          <div className={searchOtherClassname}>
               <div className="tag_input_unit1">
                 <div className="home_tag_input_tittle1"></div>
                 <div className="home_tag2_input1">
@@ -199,10 +199,10 @@ function Home() {
                   <TagItinerarySearchBtn />
                 </div>
               </div>
-            </div> */}
+            </div>
 
           {/* 票券填選區 */}
-          {/* <div className={searchOtherClassname}>
+          <div className={searchOtherClassname}>
               <div className="tag_input_unit1">
                 <div className="home_tag_input_tittle1"></div>
                 <div className="home_tag2_input1">
@@ -218,7 +218,7 @@ function Home() {
               </div>
             </div>
 
-          </div> */}
+          </div>
 
           <div className="home-part2">
             <div>
